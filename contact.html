@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENDEN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!--nav-->
+    <nav class="bg-green-100 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2x1">
+            GREENDEN
+        </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-6 w-6 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black " href="contect.html">contact</a>
+            </li>
+
+        </ul>
+    </nav>
+    <!---->
+    <!-- contact-form -->
+    <section class="py-12 px-4 sm:px-6 bg-green-50 min-h-screen flex items-center justify-center">
+        <div class="max-w-3xl w-full bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-extrabold mb-6 text-green-800 text-center">Contact Us</h2>
+            <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name"
+                        class="mt-1 p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent transition-colors">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Your Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"
+                        class="mt-1 p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent transition-colors">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Your Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message" rows="5"
+                        class="mt-1 p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent transition-colors"></textarea>
+                </div>
+                <button type="submit"
+                    class="bg-green-600 text-white p-3 rounded-lg w-full hover:bg-green-700 transition-colors font-medium">Send
+                    Message</button>
+            </form>
+            <p id="form-feedback" class="mt-4 text-sm text-center hidden p-2 rounded"></p>
+        </div>
+    </section>
+
+    <!--new letter-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Join our News Letter</h1>
+        <p>Signup for our email newspapre to get exclusiv discounts,updates,and more</p>
+        <input type="text" class="border border-black p-2 m-3" style="width:80%;">
+        <br>
+        <button class="bg-black text-white p-3 m-1 underline">Subscribe</button>
+
+    </section>
+    <!--last-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum dolor sit consectetur blanditiis enim sed dolore maiores minus sequi
+            suscipit.</p>
+        <p>@ 2025 Greenday.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

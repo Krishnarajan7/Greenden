@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENDEN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <!--nav-->
+    <nav class="bg-green-100 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2x1">
+            GREENDEN
+        </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-6 w-6 md:hidden">
+            <path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg>
+
+    <ul class="flex gap-5 text-gray-600 hidden md:flex">
+
+        <li>
+            <a class="hover:underline hover:text-black" href="index.html" >Home</a>
+        </li>
+            
+        <li>
+            <a class="hover:underline hover:text-black" href="product.html">Product</a>
+        </li>
+
+        <li>
+            <a class="hover:underline hover:text-black " href="contect.html">contact</a>
+        </li>
+
+    </ul>
+    </nav>
+    <!---->
+    <div class="p-4 mx-auto max-w-xl bg-white">
+      <h1 class="text-3xl text-slate-900 font-semibold text-center">Contact us</h1>
+      <form class="mt-8 space-y-5">
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Name</label>
+          <input type='text' placeholder='Enter Name'
+            class="w-full py-2.5 px-4 text-slate-800 bg-gray-100 border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm outline-0 transition-all" />
+        </div>
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Email</label>
+          <input type='email' placeholder='Enter Email'
+            class="w-full py-2.5 px-4 text-slate-800 bg-gray-100 border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm outline-0 transition-all" />
+        </div>
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Subject</label>
+          <input type='text' placeholder='Enter Subject'
+            class="w-full py-2.5 px-4 text-slate-800 bg-gray-100 border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm outline-0 transition-all" />
+        </div>
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Message</label>
+          <textarea placeholder='Enter Message' rows="4"
+            class="w-full px-4 text-slate-800 bg-gray-100 border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm pt-3 outline-0 transition-all"></textarea>
+        </div>
+        <button type='button'
+          class="!mt-8 text-white bg-green-700 hover:bg-slate-800 tracking-wide text-[15px] px-4 py-2 w-full outline-0 cursor-pointer">Send</button>
+      </form>
+    </div>
+    <!--last-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum dolor sit  consectetur blanditiis enim sed dolore maiores minus sequi suscipit.</p>
+        <p>@ 2025 Greenday.com</p>
+    </section> 
+</body>
